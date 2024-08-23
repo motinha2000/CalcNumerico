@@ -8,12 +8,20 @@ public class gauss {
         System.out.println(n);
         int matriz[][];
         matriz = new int [n][n];
-        for(int i=1;i<n;i++){
-            for(int j=1;j<n;j++){
-                matriz[i][j] = 0;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                matriz[i][j] = i+j;
             }
         }
 
+        System.out.printf("%n");
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                System.out.printf("%d - ",matriz[i][j]);
+            }
+            System.out.printf("%n");
+        }
+        System.out.printf("%n");
     }
 
 }
