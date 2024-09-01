@@ -7,16 +7,16 @@ public class gauss {
         float matriz[][];
         Scanner ler = new Scanner(System.in);
         int n;
-        float x[];
+        //float x[];
         
-        float r1,r2,r3;
-        r1=3; r2=(-25/10); r3=7;
+        //float r1,r2,r3;
+        //r1=3; r2=(-25/10); r3=7;
         
         System.out.println("Insira a ordem da matriz: ");
         n = ler.nextInt();
         
         matriz = new float [n][n+1];
-        x = new float [n];
+        //x = new float [n];
         for(int i=0;i<n;i++){
             for(int j=0;j<n+1;j++){
                 System.out.printf("Insira o termo a%d%d : %n",i+1,j+1);
@@ -49,7 +49,7 @@ public class gauss {
         System.out.printf("Resultado x1 = %.4f %n", x1);
         System.out.printf("Resultado x2 = %.4f %n", x2);
         System.out.printf("Resultado x3 = %.4f %n", x3); */
-    
+        ler.close();
     }
 
 }
